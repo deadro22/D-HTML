@@ -1,0 +1,22 @@
+.body {
+  width: 30%;
+  height: 25em;
+  overflow: hidden;
+  border: 1px solid black;
+}
+.img {
+  background-size: cover;
+  background-image: url("https://www.sticky.digital/wp-content/uploads/2013/11/img-6.jpg%27");
+  height: 50%;
+}
+.btn {
+  background-color: #007bff;
+  border-radius: 5px;
+  width: 9em;
+  color: aliceblue;
+  border: none;
+  padding: 7px;
+}
+.div2 {
+  margin-left: 1em;
+}

@@ -1,0 +1,37 @@
+{
+  "name": "descriptive-html",
+  "displayName": "Descriptive Html",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "dht",
+        "aliases": [
+          "Dht",
+          "dht"
+        ],
+        "extensions": [
+          ".dht"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "dht",
+        "scopeName": "source.dht",
+        "path": "./syntaxes/dht.tmLanguage.json"
+      }
+    ]
+  },
+  "embeddedLanguages": {
+    "meta.embedded.block.css": "css"
+  }
+}

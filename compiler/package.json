@@ -1,0 +1,9 @@
+{
+  "name": "descriptive-html-compiler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "compiler.js",
+  "types": "compiler.d.ts",
+  "author": "ElRivaa",
+  "license": "MIT"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "descriptive-html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "ElRivaa",
+  "license": "ISC",
+  "scripts": {
+    "start": "nodemon index.js --config nodemon.json"
+  },
+  "dependencies": {}
+}

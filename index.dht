@@ -1,0 +1,15 @@
+import "style.css"
+
+template "card" make div with attributes class as "body" and children
+     make div with attributes class as "img" and children  end 
+     make div with attributes class as "div2" and children
+          make h1 with children $name end
+          make p with children $desc end
+          make button with attributes class as "btn" and children "Go back" end
+     end 
+end
+
+make "card" with props
+     desc as "hey brother"
+     name as "moataz"
+end
